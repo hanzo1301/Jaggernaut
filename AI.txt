@@ -1,0 +1,11 @@
+Please replace "path_to_dataset_directory" with the actual path to your dataset directory containing subdirectories for each class of images. This code assumes that the dataset directory structure follows the format mentioned in the article.
+
+This code performs the following steps:
+
+Load and preprocess the dataset.
+Split the dataset into training and testing sets.
+Load a pre-trained ResNet50 model without the top classification layer.
+Add a custom classification head to the ResNet50 model.
+Compile and train the model.
+Evaluate the model on the test set and print the test accuracy.
+Plot the training and validation accuracy over epochs.
