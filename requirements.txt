@@ -2,7 +2,8 @@ fastapi
 pydantic
 uvicorn
 debugpy
-numpy
-tensorflow
-sklearn.model_selection
-sklearn.preprocessing
+tensorflow==1.1.0
+scikit-learn==0.18.2
+scipy==0.19.1
+numpy==1.13.1
+requests
