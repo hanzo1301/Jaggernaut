@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn
+debugpy
+numpy
+tensorflow
+sklearn.model_selection
+sklearn.preprocessing
